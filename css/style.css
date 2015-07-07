@@ -1,0 +1,92 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+.slider {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    position: relative;
+    margin-top: 100px;
+}
+.Conteiner {
+    width: 400px;
+    height: 100px;
+    position: relative;
+    transition: all 0.3s ease-out 0.1s;
+    transition: top 1s ease-out 0.5s;
+}
+.slide1,
+.slide2,
+.slide3,
+.slide4 {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.slide1 {
+    background: red;
+}
+.slide2 {
+    background: green;
+}
+.slide3 {
+    background: yellow;
+}
+.slide4 {
+    background: blue;
+}
+
+
+
+
+/*.carousel {
+  position: relative;
+  width: 398px;
+  padding: 10px 50px;
+  border: 1px solid #CCC;
+  border-radius: 15px;
+}
+.carousel img {
+  width: 130px;
+  height: 130px;
+  float: left;
+  display: block;
+}
+.arrow {
+  position: absolute;
+  top: 60px;
+  padding: 0;
+  background: #ddd;
+  border: 1px solid gray;
+  font-size: 24px;
+  line-height: 24px;
+  color: #444;
+  display: block;
+}
+.arrow:hover {
+  background: #ccc;
+  cursor: pointer;
+}
+.prev {
+  left: 0px;
+}
+.next {
+  right: 0px;
+}
+.gallery {
+  width: 390px;
+  overflow: hidden;
+}
+.gallery ul {
+  height: 130px;
+  width: 9999px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  transition: all 0.3s ease-out 0.1s;
+}
+.gallery li {
+  float: left;
+}*/
